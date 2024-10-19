@@ -6,7 +6,7 @@ end
 pcall(function() getgenv().IY_LOADED = true end)
 
 local cloneref = cloneref or function(o) return o end
-COREGUI = cloneref(game:GetService("CoreGui"))
+COREGUI = cloneref(game:GetService("StarterGui"))
 Players = cloneref(game:GetService("Players"))
 
 if not game:IsLoaded() then
